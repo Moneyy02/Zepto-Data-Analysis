@@ -104,8 +104,4 @@ LIMIT 5;
 -   Connect with BI tools (Power BI / Tableau)\
 -   Automate revenue & stock-out reporting
 
-------------------------------------------------------------------------
 
-## 📜 License
-
-This project is licensed under the MIT License.
