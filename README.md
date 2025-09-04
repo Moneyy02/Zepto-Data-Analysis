@@ -1,6 +1,6 @@
 # 🛒 Zepto SQL Data Analysis
 
-This project analyzes a **Zepto product dataset** using **pure SQL**.\
+This project analyzes a **Zepto product dataset** using **pure SQL**.
 It covers **data cleaning, exploration, and business insights** such as
 pricing, discounts, inventory management, and revenue estimation.
 
@@ -9,9 +9,9 @@ pricing, discounts, inventory management, and revenue estimation.
 ## 📂 Project Structure
 
 -   **`zepto_analysis.sql`** → Contains all SQL queries:
-    -   Table creation\
-    -   Data cleaning\
-    -   Exploratory queries\
+    -   Table creation
+    -   Data cleaning
+    -   Exploratory queries
     -   Business insights (Q1--Q8)
 
 ------------------------------------------------------------------------
@@ -34,39 +34,39 @@ Unit quantity \|
 
 ## 🔍 Data Exploration
 
-1.  Count rows\
-2.  Check null values\
-3.  Find distinct categories\
-4.  Stock status (in-stock vs out-of-stock)\
+1.  Count rows
+2.  Check null values
+3.  Find distinct categories
+4.  Stock status (in-stock vs out-of-stock)
 5.  Detect duplicate products
 
 ------------------------------------------------------------------------
 
 ## 🧹 Data Cleaning
 
--   Remove products with `mrp = 0`\
--   Convert **paise → rupees**\
+-   Remove products with `mrp = 0`
+-   Convert **paise → rupees**
 -   Validate `discountedSellingPrice`
 
 ------------------------------------------------------------------------
 
 ## 📊 Business Insights (Queries)
 
--   **Q1.** Top 10 products by discount percentage\
--   **Q2.** High MRP products that are out of stock\
--   **Q3.** Estimated revenue per category\
--   **Q4.** Products with `MRP > 500` and `Discount < 10%`\
--   **Q5.** Top 5 categories with highest average discounts\
--   **Q6.** Price per gram analysis for products \> 100g\
+-   **Q1.** Top 10 products by discount percentage
+-   **Q2.** High MRP products that are out of stock
+-   **Q3.** Estimated revenue per category
+-   **Q4.** Products with `MRP > 500` and `Discount < 10%`
+-   **Q5.** Top 5 categories with highest average discounts
+-   **Q6.** Price per gram analysis for products \> 100g
 -   **Q7.** Categorize products into `low`, `medium`, `bulk` weight
-    groups\
+    groups
 -   **Q8.** Total inventory weight per category
 
 ------------------------------------------------------------------------
 
 ## 🚀 How to Run
 
-1.  Open PostgreSQL / MySQL client.\
+1.  Open PostgreSQL / MySQL client.
 
 2.  Create a new database:
 
@@ -100,8 +100,8 @@ LIMIT 5;
 
 ## 📝 Future Improvements
 
--   Add time-series sales data for trend analysis\
--   Connect with BI tools (Power BI / Tableau)\
+-   Add time-series sales data for trend analysis
+-   Connect with BI tools (Power BI / Tableau)
 -   Automate revenue & stock-out reporting
 
 
